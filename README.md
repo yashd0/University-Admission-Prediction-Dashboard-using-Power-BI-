@@ -1,7 +1,7 @@
-# University-Admission-Prediction-Dashboard-using-Power-BI- Multiple Linear Regressio
+# University-Admission-Prediction-Dashboard-using-Power-BI- Multiple Linear Regression
 
 In this repository, I have implemented various machine learning models that predict whether the probability of a student getting accepted into a University offering a Masters degree. Upon noting the validation accuracies on each of the model, I have selected the best of all on them and shown how the key performance indicators(KPIs) vary in their values.
-Data
+#Data
 The dataset contains several parameters which are considered important during the application for Masters Programs. The parameters included are :
 
 GRE Scores ( out of 340 )
@@ -13,7 +13,7 @@ Research Experience ( either 0 or 1 )
 Chance of Admit ( ranging from 0 to 1 )
 
 
-Model
+#Model
 
 For this dataset, we tried the following four models with their accuracies listed as below
 Model	Validation Accuracy
@@ -23,7 +23,7 @@ Decision Tree	0.460020
 Random Forest	0.797299
 As we can see, the best model is our Multiple Linear Regression model with a validation accuracy of 0.822831
 
-Insights
+#Insights
 
 The mean for the GRE scores is 316
 Mean for TOEFL score is 107
@@ -33,7 +33,7 @@ There is a very high correlation between GRE and TOEFL scores. A student who sco
 The chance of admission acceptance increases as GPA, SOP and University Ranking improve/increase
 Students who have research experience in the past, tend to have a higher chance of getting into a University with a ranking of 3
 
-Key Performance Indicators(KPIs)
+#Key Performance Indicators(KPIs)
 
 In the following text, I have explained what role each KPI plays and what the value that we have got suggests about our best model(Multi-Linear Regression)
 Mean Absolute Error(MAE)
@@ -53,7 +53,7 @@ Adjusted R-squared value
 We can see that the adjusted R-squared value is 0.80432. We can see that the value of adjusted R-squared is high which suggests that the predictors used in the model are all useful. If there are any such predictors that do not play a significant role in predicting the outcome, Adjusted R-square value decreases as it penalises such predictor factors.
 
 
-Build an attractive and eye-catching  dashboard
+#Build an attractive and eye-catching  dashboard
 
 Visualize gender & racial diversity using graphs & charts in Power BI
 
