@@ -20,6 +20,8 @@ Model	Validation Accuracy
 Linear Regression	0.822831
 Artificial Neural Networks(5-layers)	0.805562
 Decision Tree	0.460020
+
+
 Random Forest	0.797299
 As we can see, the best model is our Multiple Linear Regression model with a validation accuracy of 0.822831
 
@@ -51,6 +53,9 @@ R-squared value is 0.82 which means that 82% of the variance in our dataset can 
 Adjusted R-squared value
 
 We can see that the adjusted R-squared value is 0.80432. We can see that the value of adjusted R-squared is high which suggests that the predictors used in the model are all useful. If there are any such predictors that do not play a significant role in predicting the outcome, Adjusted R-square value decreases as it penalises such predictor factors.
+
+
+![UNI DASHBOARD](https://user-images.githubusercontent.com/109656499/226978215-cbf3c8c1-abbc-43f7-a0d3-fc1b41a357b3.png)
 
 
 #Build an attractive and eye-catching  dashboard
